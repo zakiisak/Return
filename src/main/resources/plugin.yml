@@ -1,0 +1,16 @@
+name: Returner
+version: '${project.version}'
+main: com.icurety.returner.Returner
+api-version: 1.18
+authors: [ Zakiisak ]
+description: Gives the command /return to the player which will make them return to their latest death location
+commands:
+  return:
+    description: teleports you to your latest death location, if any, but will cost you almost all your hp
+    usage: /<command>
+  lastDeath:
+    description: Displays the coordinates of your last death location, if any
+    usage: /<command>
+  gohome:
+    description: teleports you to your bed location, but will cost you 10 levels
+    usage: /<command>
